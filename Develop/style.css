@@ -1,7 +1,42 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
 header {
     font-size: 200%;
     color: white;
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.712);
     border-style:solid;
+    border-color: rgb(70, 70, 70);
     text-align: center;
+}
+
+.weatherBlocks {
+    height: 480px;
+    margin: auto;
+    background-color: rgb(210, 243, 250);
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 80px;
+  }
+
+.weatherCardCurrent {
+    background-color: white;
+    height: 170px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.futureForecast {
+    background-color: rgb(154, 190, 255);
+    margin: 18px;
+    height: 260px;
+    text-align: center;
+    border-style: outset;
+    border-color: darkblue;
 }
