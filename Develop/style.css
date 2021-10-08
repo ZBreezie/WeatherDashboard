@@ -11,6 +11,18 @@ header {
     text-align: center;
 }
 
+.history{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.cityBtn {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
 .weatherBlocks {
     height: 480px;
     margin: auto;
@@ -22,7 +34,7 @@ header {
   }
 
 .weatherCardCurrent {
-    background-color: white;
+    background-color: rgb(154, 190, 255);
     height: 170px;
     width: 90%;
     margin: auto;
@@ -36,7 +48,14 @@ header {
     background-color: rgb(154, 190, 255);
     margin: 18px;
     height: 260px;
-    text-align: center;
     border-style: outset;
     border-color: darkblue;
+}
+
+p {
+    margin-bottom: auto;
+}
+
+.hide {
+    display: none;
 }
