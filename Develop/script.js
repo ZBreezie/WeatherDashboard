@@ -80,11 +80,17 @@ function getWeather() {
                 
                 document.getElementById("city").innerHTML = localStorage.getItem("cityState")
                 document.getElementById("currentWeather").innerHTML = "Temp: " + localStorage.getItem("currentTemp") + "F/ " + "Humidity: " + localStorage.getItem("currentHumidity") + "%/ " + "Wind: " + localStorage.getItem("currentWind") + "mph/ " + "UVI: " + localStorage.getItem("currentUVI")
-                document.getElementById("day1").innerHTML = "Temp: " + localStorage.getItem("forecast1Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast1Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast1Wind") + "mph/ " + "UVI: " + localStorage.getItem("forecast1UVI")
-                document.getElementById("day2").innerHTML = "Temp: " + localStorage.getItem("forecast2Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast2Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast2Wind") + "mph/ " + "UVI: " + localStorage.getItem("forecast2UVI")
-                document.getElementById("day3").innerHTML = "Temp: " + localStorage.getItem("forecast3Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast3Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast3Wind") + "mph/ " + "UVI: " + localStorage.getItem("forecast3UVI")
-                document.getElementById("day4").innerHTML = "Temp: " + localStorage.getItem("forecast4Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast4Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast4Wind") + "mph/ " + "UVI: " + localStorage.getItem("forecast4UVI")
-                document.getElementById("day5").innerHTML = "Temp: " + localStorage.getItem("forecast5Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast5Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast5Wind") + "mph/ " + "UVI: " + localStorage.getItem("forecast5UVI")
+                document.getElementById("day1").innerHTML = "Temp: " + localStorage.getItem("forecast1Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast1Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast1Wind") + "mph/ "
+                document.getElementById("day2").innerHTML = "Temp: " + localStorage.getItem("forecast2Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast2Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast2Wind") + "mph/ "
+                document.getElementById("day3").innerHTML = "Temp: " + localStorage.getItem("forecast3Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast3Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast3Wind") + "mph/ "
+                document.getElementById("day4").innerHTML = "Temp: " + localStorage.getItem("forecast4Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast4Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast4Wind") + "mph/ "
+                document.getElementById("day5").innerHTML = "Temp: " + localStorage.getItem("forecast5Temp") + "F/ " + "Humidity: " + localStorage.getItem("forecast5Humidity") + "%/ " + "Wind: " + localStorage.getItem("forecast5Wind") + "mph/ "
+
+                document.getElementById("UV1").innerHTML = "UVI: " + localStorage.getItem("forecast1UVI")
+                document.getElementById("UV2").innerHTML = "UVI: " + localStorage.getItem("forecast2UVI")
+                document.getElementById("UV3").innerHTML = "UVI: " + localStorage.getItem("forecast3UVI")
+                document.getElementById("UV4").innerHTML = "UVI: " + localStorage.getItem("forecast4UVI")
+                document.getElementById("UV5").innerHTML = "UVI: " + localStorage.getItem("forecast5UVI")
 
                 console.log(localStorage)
                 document.getElementById("currentIcon").src = "http://openweathermap.org/img/wn/" + localStorage.getItem("currentIcon") + "@2x.png"
